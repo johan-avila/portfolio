@@ -1,0 +1,35 @@
+nav{
+    /* margin: 0; */
+    width: auto;
+    height: 4rem;
+    background-color: var(--color-two);
+    display: grid;
+    grid-template-rows: 5% 80% 5%;
+    grid-template-columns: 5% 10% 70% 10% 5%;
+}
+.nav-logo{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+    width: 1.5em;
+    height: 1.5em;
+    background-color: var(--color-one);
+    border-radius: 30px;
+
+    
+}
+.nav-hamburguerMenu{
+    height: 100%;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-one);
+    border-radius: 5px;
+    font-size: 1.3rem;
+}

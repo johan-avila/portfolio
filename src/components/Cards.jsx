@@ -4,7 +4,6 @@ class Card extends React.Component {
      render() {
         return (
             < div className="card" >
-               sect
                 <div className="card-left" >
                     <img className="card-left_img" src={this.props.data.img.link} alt=""/>
                 </div>

@@ -1,0 +1,6 @@
+.proyects{
+    background-color: var(--color-four);
+    padding: 3em 5em;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+}

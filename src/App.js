@@ -9,7 +9,10 @@ import  Home from "./pages/Home"
 function App() {
   return (
     <HashRouter>
-      <Route exact path="/" component={Home}/>
+      <Switch>
+        <Route exact path="/" component={Home}/>
+
+      </Switch>
     </HashRouter>
   );
 }

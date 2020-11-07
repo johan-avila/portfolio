@@ -2,16 +2,19 @@ import React from "react";
 
 import Nav from "../components/Nav"
 import Presentation from "../components/Presentation"
+import Proyects from "../components/Proyects"
+
 class Home extends React.Component {
 
-    render(){
-        return(
+    render() {
+        return (
             <React.Fragment>
                 <header>
-                    <Nav  />
+                    <Nav />
                 </header>
                 <main>
-                    <Presentation/>
+                    <Presentation />
+                    <Proyects/>
                 </main>
             </React.Fragment>
         )

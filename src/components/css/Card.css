@@ -1,0 +1,74 @@
+.card{
+    border-radius: 5px;
+    background-color: var(--color-one);
+    grid-column: 1/6;
+    height:17em ;
+    padding: .5em;
+    display: grid;
+    grid-template-columns: 39% 1%  20% 20% 20%  ;
+    margin-bottom: 2em;
+}
+.card-left{
+    
+    grid-column:1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-left_img{
+    width: 100%;
+}
+
+.card-right{
+    padding: .5em 0em;
+    grid-column: 3/6 ;    
+    display: grid;
+    grid-template-rows: 5% 15% 60% 15% 5%;
+    grid-template-columns: repeat(10, 10%) ;
+}
+
+.card-right > h2 {
+    grid-row: 2/3;
+    grid-column: 1/7;
+}
+.card-right > p {
+    margin-top: .5em;
+    grid-row: 3/4;
+    grid-column: 1/11;
+    
+}
+
+.card-right_appLink{
+    margin: .25em;
+    background-color: var(--color-four);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px var(--color-two);
+
+    color: var(--color-one);
+    font-size: 1.5rem;
+    
+    grid-row: 2/3;
+    grid-column: 7/10;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-right_tecnologies{
+    grid-row: 4/5;
+    grid-column: 1/11;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-right_tecnologies > p{
+    margin-right: .5em;        
+}
+.card-right_tecnologies > img{
+    width: 2em;
+    height: 2em;       
+}

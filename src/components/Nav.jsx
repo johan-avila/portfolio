@@ -7,9 +7,9 @@ class Nav extends React.Component{
             <React.Fragment>
                 <nav>
                     <p className="nav-logo">J</p>
-                    <a className="nav-hamburguerMenu" 
+                    <a className="nav-contactMe" 
                     href="https://www.linkedin.com/in/johan-avila-41098a129/" target="__blank" >
-                        Contact me!
+                        ¡Contactarme!
                     </a>
                 </nav>
             </React.Fragment>

@@ -5,7 +5,12 @@
   --color-two :#aa7dff;
   --color-three :#e5d8ff;
   --color-four :#efebff;
-  margin: 0px;
-  font-family:'Dosis', sans-serif;
+  --font-size-one: 1.5rem;
+  --font-size-two: 2rem;
+  --font-size-three: 3rem;
+  --font-size-four: 4rem;
   color: var(--color-four);
+  margin: 0px;
+
+  font-family:'Dosis', sans-serif;
 }

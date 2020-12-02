@@ -11,10 +11,10 @@ class Presentation extends React.Component{
                     {`< Hello World / >`}
                 </div>
                 <div className="presentation-about"  >
-                    👽 I am a full stack web developer, where I am more Backend.
+                    👽 Soy Johan, Beackend con Node.js y apasionado de la tecnología.
                 </div>
                 <div className="presentation-contactMe">
-                    <p>Contact Me!</p>
+                    <p>¡Contactarme!</p>
                     <div className="presentation-contactMe_gitTwitLinkendin">
 
                         <a href="https://www.linkedin.com/in/johan-avila-41098a129/" target="_blank" rel="noreferrer">

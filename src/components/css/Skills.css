@@ -1,0 +1,38 @@
+.skills{
+    background-color: var(--color-three);
+    color: var(--color-one);
+    margin: -6em 15em 2em ;
+    padding: 2em 3em;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;    
+    
+}
+.skills div{
+    color: var(--color-one);        
+    font-size: var(--font-size-two) ;
+}
+
+.listSkills{
+    margin-top: 1em;
+}
+
+.listSkills li{
+    color: var(--color-one);        
+    font-size: var(--font-size-one) ;
+}
+
+.skills-frontend{
+    font-size: 3em;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.skills-backend{
+    grid-column: 2/4;
+    border-radius: 0px 25px 25px 0px;
+}
+
+/* Images (size) */
+.image-logo{
+    width: 3em;
+}

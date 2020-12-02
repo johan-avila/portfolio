@@ -49,19 +49,19 @@ const proyectsMock = [
         ]
     },
     {
-                                                                    title: "Rick and Morty API",
-                                                                    link: `https://johan-avila.github.io/rickandmortyapi/#/`,
-                                                                    body : "Es una single-page aplication construida con React, consume el API publica de Rick and Morty",
-                                                                    img: {
-                                                                        link: `https://media.giphy.com/media/iJN9Lk7p36GbGm3COd/giphy.gif` ,
-                                                                        alt: "Giff Rick and Morty app"
-                                                                    },
-                                                                    technologies: [
-                                                                        {
-                                                                            link: `https://www.mindrops.com/images/nodejs-image.png`,
-                                                                            alt: "Node js logo",
-                                                                        }
-                                                                    ]
+        title: "Rick and Morty API",
+        link: `https://johan-avila.github.io/rickandmortyapi/#/`,
+        body : "Es una single-page aplication construida con React, consume el API publica de Rick and Morty",
+        img: {
+            link: `https://media.giphy.com/media/iJN9Lk7p36GbGm3COd/giphy.gif` ,
+            alt: "Giff Rick and Morty app"
+        },
+        technologies: [
+            {
+                link: `https://www.mindrops.com/images/nodejs-image.png`,
+                alt: "Node js logo",
+            }
+        ]
     },
 ]
 

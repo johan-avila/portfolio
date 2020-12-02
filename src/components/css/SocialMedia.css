@@ -1,0 +1,12 @@
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia-logos{
+    width: 6em;
+}
+.socialMedia-logos_github{
+    width: 4em;
+}

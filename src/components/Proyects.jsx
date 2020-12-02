@@ -4,13 +4,12 @@ import Cards from "./Cards"
 
 import "./css/Proyects.css"
 
-import MyProyects from "../mocks/proyects"
 class Proyects extends React.Component {
     render() {
         return(
             <section className="proyects">
             {
-             MyProyects.map(element =>{
+             this.props.myProyects.map(element =>{
 
                 return  <Cards data={element} />
              })

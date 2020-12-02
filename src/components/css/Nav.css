@@ -1,11 +1,10 @@
 nav{
-    /* margin: 0; */
     width: auto;
-    height: 4rem;
-    background-color: var(--color-two);
+    height: 7rem;
+    background-color: var(--color-three);
     display: grid;
-    grid-template-rows: 5% 80% 5%;
-    grid-template-columns: 5% 10% 70% 10% 5%;
+    grid-template-rows: 30% 40% 30%;
+    grid-template-columns: 5% 10% 65% 15% 5%;
 }
 .nav-logo{
     grid-column: 2/3;
@@ -22,14 +21,17 @@ nav{
 
     
 }
-.nav-hamburguerMenu{
+.nav-contactMe{
     height: 100%;
     grid-column: 4/5;
     grid-row: 2/3;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--color-three);
+    font-weight: 700;
     background-color: var(--color-one);
     border-radius: 5px;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    text-decoration: none;
 }

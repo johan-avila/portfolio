@@ -4,7 +4,7 @@ import Footer from "./Footer"
 class Layout extends React.Component {
     render(){
      return(
-        <React.Fragment>
+        <React.Fragment>        
             <Nav/>
             {this.props.children}
             <Footer/>

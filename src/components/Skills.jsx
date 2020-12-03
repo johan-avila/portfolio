@@ -27,10 +27,6 @@ class Skills extends React.Component {
                 </div>
                 <div className="skills-backend">
                     <img className="image-logo" src={images[0]} alt=""/>
-                    <img className="image-logo" src={images[1]} alt=""/>
-                    <img className="image-logo" src={images[2]} alt=""/>
-                    <img className="image-logo" src={images[3]} alt=""/>
-                    <img className="image-logo" src={images[4]} alt=""/>
                 </div>
             </div>
         )

@@ -7,7 +7,7 @@ class Card extends React.Component {
                 <div className="card-left" >
                     <img className="card-left_img" src={this.props.data.img.link} alt=""/>
                 </div>
-
+                {/*  */}
                 <div className="card-right" >
                     <h2>{this.props.data.title}</h2>
                     <p>{this.props.data.body}</p>

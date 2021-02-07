@@ -7,9 +7,7 @@ class Nav extends React.Component{
         return(
             <React.Fragment>
                 <nav>
-                    <p className="nav-logo">
-                        <Link to="/">J</Link>
-                    </p>
+                    <Link className="nav-logo" to="/"><p > J </p> </Link>
                     <a className="nav-button" 
                     href="https://www.linkedin.com/in/johan-avila-41098a129/" target="__blank" >
                         ¡Contactarme!

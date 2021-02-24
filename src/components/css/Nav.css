@@ -1,27 +1,28 @@
-nav{
-    width: auto;
+nav {
+    width: 100%;
     height: 7rem;
     background-color: var(--color-three);
     display: grid;
     grid-template-rows: 30% 40% 30%;
     grid-template-columns: 5% 10% 5% 20% 10% 10% 5% 15% 15% 5%;
 }
-.nav-logo{
+
+.nav-logo {
     grid-column: 2/3;
     grid-row: 2/3;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-
     width: 1.5em;
     height: 1.5em;
     background-color: var(--color-one);
     border-radius: 30px;
-
-    
+    color: white !important;
+    text-decoration: none;
 }
-.nav-button{
+
+.nav-button {
     height: 100%;
     grid-column: 9/10;
     grid-row: 2/3;
@@ -35,7 +36,23 @@ nav{
     font-size: 2rem;
     text-decoration: none;
 }
-.nav-button_proyects{
+
+.nav-button_proyects {
     margin-right: 1em;
     grid-column: 8/9;
+}
+
+@media(max-width: 650px) {
+    nav {
+        width: 100%;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .nav-button_proyects {
+        display: none;
+
+    }
 }

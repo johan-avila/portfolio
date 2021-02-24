@@ -3,9 +3,7 @@ import gql from "graphql-tag"
 import { graphql } from "react-apollo"
 
 class ApiConsumer  extends React.Component {
-        
     
-
     render (){    
         let courses =  this.props.data.getCourses
         

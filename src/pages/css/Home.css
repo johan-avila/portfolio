@@ -1,11 +1,24 @@
-.aboutMe{
-    padding:8em 7em;
+.aboutMe {
+    padding: 8em 7em;
     background-color: var(--color-one);
-    text-align: center;    
+    text-align: center;
     font-size: var(--font-size-one);
 }
-.aboutMe-title{
+
+.aboutMe-title {
     margin-bottom: 1em;
     font-size: var(--font-size-three);
+}
+
+@media(max-width: 650px) {
+    .aboutMe {
+        padding: 2em 1em 3em;
+        text-align: start;
+        font-size: 1.6rem;
+    }
     
+    .aboutMe-title {
+        text-align: center;
+        font-size: 2.2rem;
+    }
 }

@@ -10,18 +10,23 @@ class Skills extends React.Component {
                     <div className="skills-frontend_title" >Skills</div>
                     <div>
                         <ul className="listSkills">
-                            <li>Node.js</li>
-                            <li>MySQL</li>
-                            <li>GraphQL</li>
-                            <li>MongoDB</li>
-                            <li>Travis-CI</li>
-                            <li>JavaScript</li>
-                            <li>CSS</li>
-                            <li>React (básico)</li>
-                            <li>Sass (básico)</li>
-                            <li>Git</li>
-                            <li>Bootstrap</li>
-                            <li>HTML</li>
+                            <li>• Node.js</li>
+                            <li>• React</li>
+                            <li>• JWT</li>
+                            <li>• TypeScript</li>
+                            <li>• React</li>
+                            <li>• Sass</li>
+                            <li>• GraphQL</li> 
+                            <li>• Bootstrap</li>
+                            <li>• JWT</li> 
+                            <li>• Nest.js</li>
+                            <li>• MongoDB</li> 
+                            <li>• JavaScript</li>
+                            <li>• CSS</li> 
+                            <li>• MySQL</li>
+                            <li>• Travis-CI</li> 
+                            <li>• Git</li>
+
                         </ul>
                     </div>
                 </div>

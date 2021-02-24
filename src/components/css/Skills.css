@@ -20,6 +20,7 @@
 .listSkills li{
     color: var(--color-one);        
     font-size: var(--font-size-one) ;
+    list-style:none;
 }
 
 .skills-frontend{
@@ -35,4 +36,29 @@
 /* Images (size) */
 .image-logo{
    width: 100%;
+}
+@media(max-width: 650px){
+    .skills{
+        margin: -2em 1em 1em ;
+    }
+    
+    .listSkills{
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .listSkills li{
+        min-width: 50%;
+    }
+    
+    .skills-frontend{
+        font-size: 1.5em !important;
+        grid-column: 1/5;
+        border-radius: 25px 0px 0px 25px;
+    }
+    
+    .skills-backend{
+        display: none;
+    }
 }
